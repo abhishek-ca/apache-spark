@@ -12,10 +12,10 @@ steps:
     name: "building spark in local"
     command: |
       ./build/mvn -DskipTests clean package
-  - type: Command
-    name: "Running tests"
-    command: |
-      ./dev/run-tests
+#   - type: Command
+#     name: "Running tests"
+#     command: |
+#       ./dev/run-tests
   - type: Command
     name: "run the Pi example locally"
     command: |
